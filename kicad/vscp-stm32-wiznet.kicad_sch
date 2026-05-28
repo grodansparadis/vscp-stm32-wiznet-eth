@@ -1,0 +1,298 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9946ca4c-37bd-4da6-8729-48f4fec5ad01")
+	(paper "A4")
+	(title_block
+		(title "STM32-WIZNET-ETH")
+		(date "2026-05-28")
+		(rev "A")
+		(company "Grodans Paradis AB")
+		(comment 1 "http://www.grodansparadis.com")
+		(comment 2 "http://vscp.org")
+	)
+	(lib_symbols)
+	(sheet
+		(at 31.75 26.67)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "36e272a2-ade0-4e60-a359-84c871107293")
+		(property "Sheetname" "CPU"
+			(at 31.75 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 31.75 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "vscp-stm32-wiznet"
+				(path "/9946ca4c-37bd-4da6-8729-48f4fec5ad01"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 26.67)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "544f4fa3-1e88-478e-99bc-f819ba8e60f9")
+		(property "Sheetname" "CAN"
+			(at 92.71 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 92.71 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "vscp-stm32-wiznet"
+				(path "/9946ca4c-37bd-4da6-8729-48f4fec5ad01"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 50.8)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "99b83c83-f9b7-42f5-bba2-772f9246f7c6")
+		(property "Sheetname" "USB"
+			(at 31.75 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 31.75 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "vscp-stm32-wiznet"
+				(path "/9946ca4c-37bd-4da6-8729-48f4fec5ad01"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 26.67)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b1082388-31ed-4803-840a-d0598fb6a1bf")
+		(property "Sheetname" "Ethernet"
+			(at 60.96 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 60.96 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "vscp-stm32-wiznet"
+				(path "/9946ca4c-37bd-4da6-8729-48f4fec5ad01"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 50.8)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "df544846-52ce-4f19-9751-5153870e2440")
+		(property "Sheetname" "Power"
+			(at 60.96 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 60.96 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "vscp-stm32-wiznet"
+				(path "/9946ca4c-37bd-4da6-8729-48f4fec5ad01"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 26.67)
+		(size 29.21 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e4e4ca68-8b68-4750-ac01-557dd7519204")
+		(property "Sheetname" "HIM"
+			(at 124.46 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "him.kicad_sch"
+			(at 124.46 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "vscp-stm32-wiznet"
+				(path "/9946ca4c-37bd-4da6-8729-48f4fec5ad01"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
