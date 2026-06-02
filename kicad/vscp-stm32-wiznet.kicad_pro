@@ -98,10 +98,6 @@
           ""
         ],
         [
-          "silk_overlap|99046666|60914819|d6e7d4d9-e68f-4e8d-b087-16e7a514060d|f8232fd1-5838-4687-968d-1fd166eb40ec",
-          ""
-        ],
-        [
           "starved_thermal|132525000|62780000|3df4c9ac-2d1f-4ed1-8a3a-03894e018b73|4bfbfd32-bcad-4871-8fde-d940c34c1045|In1.Cu",
           ""
         ],
@@ -578,7 +574,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -702,7 +698,7 @@
         "uuid": "9946ca4c-37bd-4da6-8729-48f4fec5ad01"
       }
     ],
-    "used_designators": "L3,C33-37,#PWR27,#PWR33,#PWR35,#PWR37,#PWR39-40,#PWR42-45,#PWR51-52,#PWR72-78,#PWR87-92,Y4,IC1,IC3,#FLG1",
+    "used_designators": "R30,D6,#PWR93-94",
     "variants": []
   },
   "sheets": [
