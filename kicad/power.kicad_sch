@@ -1573,12 +1573,6 @@
 		(color 0 0 0 0)
 		(uuid "cc479459-2f42-4639-bbbe-6e230aa3b84f")
 	)
-	(junction
-		(at 114.3 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e425e33f-d079-492d-8ef9-256532b2535a")
-	)
 	(wire
 		(pts
 			(xy 114.3 86.36) (xy 114.3 92.71)
@@ -1631,7 +1625,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 72.39) (xy 114.3 76.2)
+			(xy 114.3 69.85) (xy 114.3 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1751,16 +1745,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 69.85) (xy 114.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c78ee50-f1b5-48ac-b66c-25f8d1022741")
-	)
-	(wire
-		(pts
 			(xy 170.18 69.85) (xy 170.18 71.12)
 		)
 		(stroke
@@ -1768,6 +1752,16 @@
 			(type default)
 		)
 		(uuid "8fdcdd09-5642-4971-a712-b9503e4b8b96")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a99b49e-868d-4c92-941f-a4ff05b40a7c")
 	)
 	(wire
 		(pts
@@ -1841,6 +1835,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1872aa7-9eff-4536-9056-9c4a7d2220b6")
+	)
+	(wire
+		(pts
 			(xy 149.86 86.36) (xy 163.83 86.36)
 		)
 		(stroke
@@ -1848,16 +1852,6 @@
 			(type default)
 		)
 		(uuid "ed3d292d-9242-4ea7-bf5d-f2e0bcc623f0")
-	)
-	(wire
-		(pts
-			(xy 105.41 72.39) (xy 114.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fddb09ff-1370-496d-b690-e0db26a75a93")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1893,7 +1887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2374,7 +2368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2573,6 +2567,84 @@
 			(project "vscp-stm32-wiznet"
 				(path "/9946ca4c-37bd-4da6-8729-48f4fec5ad01/df544846-52ce-4f19-9751-5153870e2440"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 105.41 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70173002-353e-428b-ac71-6c3ed74d4315")
+		(property "Reference" "#FLG01"
+			(at 105.41 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 105.41 78.4169 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 105.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b76db29a-8683-4191-855a-40d73357e5ef")
+		)
+		(instances
+			(project "vscp-stm32-wiznet"
+				(path "/9946ca4c-37bd-4da6-8729-48f4fec5ad01/df544846-52ce-4f19-9751-5153870e2440"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2849,7 +2921,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 190.5 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2860,7 +2932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nexperia.com/product/PESD3V3L1BA"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
 			(at 190.5 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3288,84 +3360,6 @@
 			(project "vscp-stm32-wiznet"
 				(path "/9946ca4c-37bd-4da6-8729-48f4fec5ad01/df544846-52ce-4f19-9751-5153870e2440"
 					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 105.41 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7358637-d26f-4413-9516-596396e030d2")
-		(property "Reference" "#FLG01"
-			(at 105.41 70.485 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 105.41 68.2569 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 105.41 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5c1850d-e691-4266-be40-822514be3eca")
-		)
-		(instances
-			(project "vscp-stm32-wiznet"
-				(path "/9946ca4c-37bd-4da6-8729-48f4fec5ad01/df544846-52ce-4f19-9751-5153870e2440"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)

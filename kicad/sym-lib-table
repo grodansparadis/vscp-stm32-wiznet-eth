@@ -4,6 +4,5 @@
 	(lib (name "W5500") (type "KiCad") (uri "${KIPRJMOD}/lbr/LIB_W5500/W5500/KiCad") (options "") (descr ""))
 	(lib (name "Misc-local") (type "KiCad") (uri "${KIPRJMOD}/lbr") (options "") (descr ""))
 	(lib (name "qwiic") (type "KiCad") (uri "${KIPRJMOD}/lbr/BM04B_SRSS_TB/KiCADv6/2026-05-28_14-01-52.kicad_sym") (options "") (descr ""))
-	(lib (name "usb") (type "KiCad") (uri "${KIPRJMOD}/lbr/ul_USB4145-03-0230-C/KiCADv6") (options "") (descr ""))
-	(lib (name "candrv") (type "KiCad") (uri "${KIPRJMOD}/lbr/LIB_TCAN3403DDFRQ1/TCAN3403DDFRQ1/KiCad") (options "") (descr ""))
+	(lib (name "can") (type "KiCad") (uri "${KIPRJMOD}/lbr/LIB_TCAN3403DDFRQ1/TCAN3403DDFRQ1/KiCad/TCAN3403DDFRQ1.kicad_sym") (options "") (descr ""))
 )
