@@ -7,7 +7,7 @@
 	(title_block
 		(title "STM32-WIZNET-ETH")
 		(date "2026-05-28")
-		(rev "A")
+		(rev "B")
 		(company "Grodans Paradis AB")
 		(comment 1 "http://www.grodansparadis.com")
 		(comment 2 "http://vscp.org")
