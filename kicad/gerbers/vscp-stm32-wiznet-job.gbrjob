@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.3"
     },
-    "CreationDate": "2026-07-30T21:20:47+02:00"
+    "CreationDate": "2026-07-31T09:54:27+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "vscp-stm32-wiznet",
       "GUID": "76736370-2d73-4746-9d33-322d77697a6e",
-      "Revision": "B"
+      "Revision": "C"
     },
     "Size": {
       "X": 42.05,
